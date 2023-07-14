@@ -43,11 +43,11 @@ public class Film {
         public FilmApp() {
             // Inisialisasi data film
             films = new Film[5];
-            films[0] = new Film(1, "Film A", 2020, 8.5);
-            films[1] = new Film(2, "Film B", 2019, 9.1);
-            films[2] = new Film(3, "Film C", 2021, 7.8);
-            films[3] = new Film(4, "Film D", 2018, 8.9);
-            films[4] = new Film(5, "Film E", 2022, 8.2);
+            films[0] = new Film(1, "The Flash", 2023, 7.3);
+            films[1] = new Film(2, "Spiderman", 2023, 9.0);
+            films[2] = new Film(3, "Transformer", 2023, 6.6);
+            films[3] = new Film(4, "Avatar", 2022, 7.6);
+            films[4] = new Film(5, "The Little Mermaid", 2023, 7.2);
         }
 
         public void displayFilms() {
